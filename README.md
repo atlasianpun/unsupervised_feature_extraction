@@ -60,16 +60,7 @@ python3 mds.py input_file output_file alpha
 python3 pca1.py irises.data irises2d.datapython3 pca2.py irises.data irises2d.datapython3 pca3.py irises.data irises2d.datapython3 mds.py irises.data irises2d.data 0.1
 ```
 
-## Datasets
 
-- **Provided Datasets**:
-  - irises.data
-  - wine.data
-- Users are encouraged to test with additional datasets
-
-## Visualization
-
-- Use plot.py for visualizing results with small datasets
 
 ## Project Requirements
 
@@ -93,9 +84,8 @@ python3 pca1.py irises.data irises2d.datapython3 pca2.py irises.data irises2d.da
 - Study effects of α parameter
 - Document recommendations for α values in different scenarios
 
-## Submission Requirements
+## Repo Files
 
-- Submit a zip file named `[netid].zip` containing:
    1. Python scripts:
   - pca1.py
   - pca2.py
@@ -104,30 +94,3 @@ python3 pca1.py irises.data irises2d.datapython3 pca2.py irises.data irises2d.da
    1. Documentation
    1. Research report
 
-## Grading Criteria
-
-- **Correctness (90%)**
-  - Programs tested against secret input data
-  - Proper implementation of algorithms
-  - Correct handling of program arguments
-- **Research Quality (10%)**
-  - Depth of analysis in report
-  - Quality of recommendations
-  - Thoroughness of experimentation
-
-## Academic Integrity
-
-- Individual project
-- Discussion of program performance allowed
-- Code sharing prohibited
-- All submissions checked for plagiarism
-
-## Notes
-
-- Programs must handle command-line arguments exactly as specified
-- Use standard Python libraries only
-- Each program should be completely self-contained
-
-## Contact
-
-For questions or clarifications, please contact course staff through appropriate channels.
